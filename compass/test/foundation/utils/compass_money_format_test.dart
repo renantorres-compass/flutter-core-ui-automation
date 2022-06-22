@@ -2,7 +2,7 @@ import 'package:compass/foundation/utils/compass_money_format.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  test("Get a value and format to a money format", () {
+  test("Get a value and return in a money format", () {
     double value = 123456.22;
     double value1 = 1234;
     double value2 = 9.99;
