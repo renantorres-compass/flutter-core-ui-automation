@@ -1,4 +1,4 @@
-import 'package:compass/foundation/utils/date_format.dart';
+import 'package:compass/foundation/utils/compass_date_format.dart';
 
 extension StringX on String {
   String get dateFormatCompact => CompassDateFormat.compact(this);

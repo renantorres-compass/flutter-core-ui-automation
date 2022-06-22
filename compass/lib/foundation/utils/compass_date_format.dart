@@ -21,7 +21,7 @@ abstract class CompassDateFormat {
     return "${dateTime.substring(8, 10)}/${dateTime.substring(5, 7)}/${dateTime.substring(0, 4)} ${dateTime.substring(11, 16)}";
   }
 
-  /// "dd/MM/yyyy HH:mm"
+  /// "dd/MM/yyyy - HH:mm"
   static String mediumHyphenated(String dateTime) {
     return "${dateTime.substring(8, 10)}/${dateTime.substring(5, 7)}/${dateTime.substring(0, 4)} - ${dateTime.substring(11, 16)}";
   }
@@ -31,7 +31,7 @@ abstract class CompassDateFormat {
     return "${dateTime.substring(8, 10)}/${dateTime.substring(5, 7)}/${dateTime.substring(0, 4)} ${dateTime.substring(11, 19)}";
   }
 
-  /// "dd/MM/yyyy HH:mm:ss"
+  /// "dd/MM/yyyy - HH:mm:ss"
   static String fullHyphenated(String dateTime) {
     return "${dateTime.substring(8, 10)}/${dateTime.substring(5, 7)}/${dateTime.substring(0, 4)} - ${dateTime.substring(11, 19)}";
   }
