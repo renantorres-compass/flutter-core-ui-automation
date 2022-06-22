@@ -13,4 +13,7 @@ extension StringX on String {
   String get dateFormatMonthYear => CompassDateFormat.monthYear(this);
   String get dateFormatDayShortNamedMonth =>
       CompassDateFormat.dayShortNamedMonth(this);
+
+  int parseInt() => int.parse(this);
+  double parseDouble() => double.parse(this);
 }
