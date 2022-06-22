@@ -38,4 +38,14 @@ void main() {
   test("Get dayShortNamedMonth DateTime from String extension", () {
     expect(date.dateFormatDayShortNamedMonth, "22 / Junho");
   });
+
+  test("Get int value from String", () {
+    String valueText = "42";
+    expect(valueText.parseInt(), 42);
+  });
+
+  test("Get double value from String", () {
+    String valueText = "42.000";
+    expect(valueText.parseDouble(), 42.000);
+  });
 }
