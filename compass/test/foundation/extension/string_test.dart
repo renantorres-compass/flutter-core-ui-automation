@@ -58,4 +58,14 @@ void main() {
     String cardNumber = "1111222233334444";
     expect(cardNumber.toCardNumber(), "1111 2222 3333 4444");
   });
+
+  test("Convert string value to CNPJ format", () {
+    String cnpj = "12345678910000";
+    expect(cnpj.toCNPJFormat(), "12.345.678/9100-00");
+  });
+
+  test("Convert string value to CPF format", () {
+    String cpf = "12345678910";
+    expect(cpf.toCPFFormat(), "123.456.789-10");
+  });
 }

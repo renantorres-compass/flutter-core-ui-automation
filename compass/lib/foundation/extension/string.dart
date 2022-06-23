@@ -26,7 +26,11 @@ extension StringX on String {
     return CardNumberMask.setCardNumber(this);
   }
 
-  String toCNPJMask() {
+  String toCNPJFormat() {
     return CNPJMask.setCNPJMask(this);
+  }
+
+  String toCPFFormat() {
+    return CPFMask.setCPFMask(this);
   }
 }
