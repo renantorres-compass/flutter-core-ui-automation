@@ -33,4 +33,8 @@ extension StringX on String {
   String toCPFFormat() {
     return CPFMask.setCPFMask(this);
   }
+
+  String toPhoneFormat() {
+    return PhoneMask.setPhoneMask(this);
+  }
 }

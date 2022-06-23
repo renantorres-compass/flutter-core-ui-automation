@@ -68,4 +68,9 @@ void main() {
     String cpf = "12345678910";
     expect(cpf.toCPFFormat(), "123.456.789-10");
   });
+
+  test("Convert string value to Phone format", () {
+    String phone = "61999999999";
+    expect(phone.toPhoneFormat(), "(61) 99999-9999");
+  });
 }
