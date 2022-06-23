@@ -25,4 +25,8 @@ extension StringX on String {
   String toCardNumber() {
     return CardNumberMask.setCardNumber(this);
   }
+
+  String toCNPJMask() {
+    return CNPJMask.setCNPJMask(this);
+  }
 }
