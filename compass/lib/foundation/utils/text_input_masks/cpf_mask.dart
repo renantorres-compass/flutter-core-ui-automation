@@ -5,7 +5,7 @@ abstract class CPFMask {
     mask: "###.###.###-##",
   );
 
-  static String setCpfCnpjMask(String text) {
+  static String setCPFMask(String text) {
     return cpfController.maskText(text);
   }
 }
