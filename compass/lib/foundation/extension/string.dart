@@ -1,19 +1,24 @@
 import 'package:compass/foundation/utils/compass_date_format.dart';
+import 'package:compass/foundation/utils/text_input_masks/birthday_mask.dart';
 
 extension StringX on String {
-  String get dateFormatCompact => CompassDateFormat.compact(this);
-  String get dateFormatCompactHyphenated =>
+  String dateFormatCompact() => CompassDateFormat.compact(this);
+  String dateFormatCompactHyphenated() =>
       CompassDateFormat.compactHyphenated(this);
-  String get dateFormatShort => CompassDateFormat.short(this);
-  String get dateFormatMedium => CompassDateFormat.medium(this);
-  String get dateFormatMediumHyphenated =>
+  String dateFormatShort() => CompassDateFormat.short(this);
+  String dateFormatMedium() => CompassDateFormat.medium(this);
+  String dateFormatMediumHyphenated() =>
       CompassDateFormat.mediumHyphenated(this);
-  String get dateFormatFull => CompassDateFormat.full(this);
-  String get dateFormatFullHyphenated => CompassDateFormat.fullHyphenated(this);
-  String get dateFormatMonthYear => CompassDateFormat.monthYear(this);
-  String get dateFormatDayShortNamedMonth =>
+  String dateFormatFull() => CompassDateFormat.full(this);
+  String dateFormatFullHyphenated() => CompassDateFormat.fullHyphenated(this);
+  String dateFormatMonthYear() => CompassDateFormat.monthYear(this);
+  String dateFormatDayShortNamedMonth() =>
       CompassDateFormat.dayShortNamedMonth(this);
 
   int parseInt() => int.parse(this);
   double parseDouble() => double.parse(this);
+
+  String toBirthDayFormat() {
+    return BirthDayMask.setBirthDayMask(this);
+  }
 }
