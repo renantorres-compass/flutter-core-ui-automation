@@ -5,6 +5,6 @@ void main() {
   test('description', () {
     String birthDay = "22081990";
 
-    expect(BirthDayMask.getBirthDayMask(birthDay), "22/08/1990");
+    expect(BirthDayMask.setBirthDayMask(birthDay), "22/08/1990");
   });
 }
