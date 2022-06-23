@@ -1,4 +1,4 @@
-import 'package:compass/foundation/utils/compass_date_format.dart';
+import 'package:compass/foundation/utils/formats/formats.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

@@ -1,4 +1,4 @@
-import 'package:compass/foundation/utils/compass_money_format.dart';
+import 'package:compass/foundation/utils/formats/formats.dart';
 
 extension DoubleX on double {
   String get moneyFormat => CompassMoneyFormat.moneyBRLformat(this);

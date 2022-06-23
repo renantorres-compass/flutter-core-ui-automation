@@ -1,5 +1,5 @@
-import 'package:compass/foundation/utils/compass_date_format.dart';
-import 'package:compass/foundation/utils/text_input_masks/birthday_mask.dart';
+import 'package:compass/foundation/utils/formats/formats.dart';
+import 'package:compass/foundation/utils/text_input_masks/masks.dart';
 
 extension StringX on String {
   String dateFormatCompact() => CompassDateFormat.compact(this);
@@ -20,5 +20,9 @@ extension StringX on String {
 
   String toBirthDayFormat() {
     return BirthDayMask.setBirthDayMask(this);
+  }
+
+  String toCardNumber() {
+    return CardNumberMask.setCardNumber(this);
   }
 }

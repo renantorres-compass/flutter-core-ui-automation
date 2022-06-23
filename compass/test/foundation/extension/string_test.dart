@@ -53,4 +53,9 @@ void main() {
     String valueText = "22081990";
     expect(valueText.toBirthDayFormat(), "22/08/1990");
   });
+
+  test("Convert string value to Card Number format", () {
+    String cardNumber = "1111222233334444";
+    expect(cardNumber.toCardNumber(), "1111 2222 3333 4444");
+  });
 }
