@@ -37,4 +37,8 @@ extension StringX on String {
   String toPhoneFormat() {
     return PhoneMask.setPhoneMask(this);
   }
+
+  String toZipCodeFormat() {
+    return ZipCodeMask.setZipCodeMask(this);
+  }
 }

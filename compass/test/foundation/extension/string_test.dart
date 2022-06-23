@@ -73,4 +73,9 @@ void main() {
     String phone = "61999999999";
     expect(phone.toPhoneFormat(), "(61) 99999-9999");
   });
+
+  test("Convert string value to ZipCode format", () {
+    String zipCode = "77777777";
+    expect(zipCode.toZipCodeFormat(), "77777-777");
+  });
 }
