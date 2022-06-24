@@ -78,4 +78,9 @@ void main() {
     String zipCode = "77777777";
     expect(zipCode.toZipCodeFormat(), "77777-777");
   });
+
+  test("Remove white space from string", () {
+    String text = "000          111";
+    expect(text.removeWhiteSpace(), "000111");
+  });
 }
