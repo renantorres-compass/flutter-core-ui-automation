@@ -41,4 +41,6 @@ extension StringX on String {
   String toZipCodeFormat() {
     return ZipCodeMask.setZipCodeMask(this);
   }
+
+  String removeWhiteSpace() => replaceAll(" ", "");
 }
