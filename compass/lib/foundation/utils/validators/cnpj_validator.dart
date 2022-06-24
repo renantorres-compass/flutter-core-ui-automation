@@ -1,3 +1,5 @@
+import 'package:compass/foundation/extension/string.dart';
+
 class CNPJValidator {
   final String errorMessage;
 
@@ -6,7 +8,8 @@ class CNPJValidator {
   String? validateCNPJ(String? cnpj) {
     if (cnpj == null ||
         cnpj.isEmpty ||
-        cnpj.trim().replaceAll(RegExp(r'[^\w\s]+'), "").length < 14) {
+        cnpj.removeWhiteSpace().replaceAll(RegExp(r'[^\w\s]+'), "").length <
+            14) {
       return errorMessage;
     } else {
       return null;

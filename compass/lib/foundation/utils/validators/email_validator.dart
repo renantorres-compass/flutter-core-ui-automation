@@ -1,3 +1,5 @@
+import 'package:compass/foundation/extension/string.dart';
+
 class EmailValidator {
   final String errorMessage;
 
@@ -12,7 +14,7 @@ class EmailValidator {
   String? validateEmail(String? email) {
     if (email == null ||
         email.trim().isEmpty ||
-        email.trim().length < 5 ||
+        email.removeWhiteSpace().length < 5 ||
         !emailValid(email)) {
       return errorMessage;
     } else {

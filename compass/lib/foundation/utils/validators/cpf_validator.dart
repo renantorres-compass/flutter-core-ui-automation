@@ -1,3 +1,5 @@
+import 'package:compass/foundation/extension/string.dart';
+
 class CPFValidator {
   final String errorMessage;
 
@@ -6,7 +8,8 @@ class CPFValidator {
   String? validateCPF(String? cpf) {
     if (cpf == null ||
         cpf.isEmpty ||
-        cpf.trim().replaceAll(RegExp(r'[^\w\s]+'), "").length < 11) {
+        cpf.removeWhiteSpace().replaceAll(RegExp(r'[^\w\s]+'), "").length <
+            11) {
       return errorMessage;
     } else {
       return null;

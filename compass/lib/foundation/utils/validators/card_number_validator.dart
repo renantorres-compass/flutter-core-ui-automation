@@ -1,3 +1,5 @@
+import 'package:compass/foundation/extension/string.dart';
+
 class CardNumberValidator {
   final String errorMessage;
 
@@ -6,7 +8,7 @@ class CardNumberValidator {
   String? validateCardNumber(String? card) {
     if (card == null ||
         card.isEmpty ||
-        card.replaceAll(" ", "").replaceAll(RegExp(r'[^\w\s]+'), "").length <
+        card.removeWhiteSpace().replaceAll(RegExp(r'[^\w\s]+'), "").length <
             16) {
       return errorMessage;
     } else {

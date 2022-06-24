@@ -23,7 +23,7 @@ void main() {
 
     expect(
         BirthdayValidator(errorMessage: errorMessage)
-            .validateBirthday("22081990"),
+            .validateBirthday("2208199"),
         "Data de nascimento inválida");
 
     expect(
