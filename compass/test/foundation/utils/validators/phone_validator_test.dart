@@ -1,4 +1,4 @@
-import 'package:compass/foundation/utils/validators/phone_validator.dart';
+import 'package:compass_foundation/foundation/utils/validators/phone_validator.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

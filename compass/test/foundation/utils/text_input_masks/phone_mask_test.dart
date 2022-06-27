@@ -1,4 +1,4 @@
-import 'package:compass/foundation/utils/text_input_masks/phone_mask.dart';
+import 'package:compass_foundation/foundation/utils/text_input_masks/phone_mask.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
