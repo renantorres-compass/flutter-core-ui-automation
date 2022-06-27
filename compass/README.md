@@ -10,19 +10,19 @@ Returns the **Size** of Screen, can be used to determinate the Width or Height f
 
 - _.appTextTheme_
 
-Get the Text Theme easily.\_\_\_\_\_
+Get the Text Theme easily. <br/> <br/>
 
 ### Double
 
 - _.moneyFormat_
 
-Converts a **double** value to BRL money format (ex: R$ 1.234,00).
+Converts a **double** value to BRL money format (ex: R$ 1.234,00). <br/> <br/>
 
 ### Int
 
 - _.moneyFormat_
 
-Converts a **int** value to BRL money format (ex: R$ 1.234,00).
+Converts a **int** value to BRL money format (ex: R$ 1.234,00).<br/> <br/>
 
 ### String
 
@@ -30,79 +30,79 @@ Converts a **int** value to BRL money format (ex: R$ 1.234,00).
 
 - _.dateFormatCompact_
 
-"dd/MM"
+"dd/MM" <br/>
 
 - _.dateFormatCompactHyphenated_
 
-"dd/MM - HH:mm"
+"dd/MM - HH:mm" <br/>
 
 - _.dateFormatShort_
 
-"dd/MM/yyyy"
+"dd/MM/yyyy" <br/>
 
 - _.dateFormatMedium_
 
-"dd/MM/yyyy HH:mm"
+"dd/MM/yyyy HH:mm" <br/>
 
 - _.dateFormatMediumHyphenated_
 
-"dd/MM/yyyy - HH:mm"
+"dd/MM/yyyy - HH:mm" <br/>
 
 - _.dateFormatFull_
 
-"dd/MM/yyyy HH:mm:ss"
+"dd/MM/yyyy HH:mm:ss" <br/>
 
 - _.dateFormatFullHyphenated_
 
-"dd/MM/yyyy - HH:mm:ss"
+"dd/MM/yyyy - HH:mm:ss" <br/>
 
 - _.dateFormatMonthYear_
 
-"MMMM / YYYY"
+"MMMM / YYYY" <br/>
 
 - _.dateFormatDayShortNamedMonth_
 
-"dd / MMMM"
+"dd / MMMM" <br/> <br/>
 
 **Parse**
 
 - _.parseInt()_
 
-Easy way to convert String to int
+Easy way to convert String to int <br/>
 
 - _.parseDouble()_
 
-Easy way to convert String to double
+Easy way to convert String to double <br/> <br/>
 
 **Other Formats**
 
 - _.toBirthDayFormat()_
 
-Convert String text to birthday format (ex: 22/08/1990).
+Convert String text to birthday format (ex: 22/08/1990). <br/>
 
 - _.toCardNumber()_
 
-Convert String to card number format (ex: "#### #### #### ####")
+Convert String to card number format (ex: "#### #### #### ####") <br/>
 
 - _.toCNPJFormat()_
 
-Convert String to CNPJ format (ex: "##.###.###/####-##")
+Convert String to CNPJ format (ex: "##.###.###/####-##") <br/>
 
 - _.toCPFFormat()_
 
-Convert String to CPF format (ex: "###.###.###-##")
+Convert String to CPF format (ex: "###.###.###-##") <br/>
 
 - _.toPhoneFormat()_
 
-Convert String to Phone format (ex:"(##) #####-####")
+Convert String to Phone format (ex:"(##) #####-####") <br/>
 
 - _.toZipCodeFormat()_
 
-Convert String to Zip Code format (ex:"#####-###")
+Convert String to Zip Code format (ex:"#####-###") <br/>
 
 - _.removeWhiteSpace()_
 
-Remove All white spaces.
+Remove All white spaces. <br/> <br/>
 
 <!--
 This README describes the package. If you publish this package to pub.dev,
