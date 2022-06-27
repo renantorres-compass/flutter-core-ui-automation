@@ -6,23 +6,23 @@
 
 - _.screenSize_
 
-Returns the **Size** of Screen, can be used to determinate the Width or Height for example: _Container( height: screenSize.heigth \* 2)_
+  Returns the **Size** of Screen, can be used to determinate the Width or Height for example: _Container( height: screenSize.heigth \* 2)_
 
 - _.appTextTheme_
 
-Get the Text Theme easily. <br/> <br/>
+  Get the Text Theme easily. <br/> <br/>
 
 ### Double
 
 - _.moneyFormat_
 
-Converts a **double** value to BRL money format (ex: R$ 1.234,00). <br/> <br/>
+  Converts a **double** value to BRL money format (ex: R$ 1.234,00). <br/> <br/>
 
 ### Int
 
 - _.moneyFormat_
 
-Converts a **int** value to BRL money format (ex: R$ 1.234,00).<br/> <br/>
+  Converts a **int** value to BRL money format (ex: R$ 1.234,00).<br/> <br/>
 
 ### String
 
@@ -30,85 +30,85 @@ Converts a **int** value to BRL money format (ex: R$ 1.234,00).<br/> <br/>
 
 - _.dateFormatCompact_
 
-"dd/MM" <br/>
+  "dd/MM" <br/>
 
 - _.dateFormatCompactHyphenated_
 
-"dd/MM - HH:mm" <br/>
+  "dd/MM - HH:mm" <br/>
 
 - _.dateFormatShort_
 
-"dd/MM/yyyy" <br/>
+  "dd/MM/yyyy" <br/>
 
 - _.dateFormatMedium_
 
-"dd/MM/yyyy HH:mm" <br/>
+  "dd/MM/yyyy HH:mm" <br/>
 
 - _.dateFormatMediumHyphenated_
 
-"dd/MM/yyyy - HH:mm" <br/>
+  "dd/MM/yyyy - HH:mm" <br/>
 
 - _.dateFormatFull_
 
-"dd/MM/yyyy HH:mm:ss" <br/>
+  "dd/MM/yyyy HH:mm:ss" <br/>
 
 - _.dateFormatFullHyphenated_
 
-"dd/MM/yyyy - HH:mm:ss" <br/>
+  "dd/MM/yyyy - HH:mm:ss" <br/>
 
 - _.dateFormatMonthYear_
 
-"MMMM / YYYY" <br/>
+  "MMMM / YYYY" <br/>
 
 - _.dateFormatDayShortNamedMonth_
 
-"dd / MMMM" <br/> <br/>
+  "dd / MMMM" <br/> <br/>
 
 **Parse**
 
 - _.parseInt()_
 
-Easy way to convert String to int <br/>
+  Easy way to convert String to int <br/>
 
 - _.parseDouble()_
 
-Easy way to convert String to double <br/> <br/>
+  Easy way to convert String to double <br/> <br/>
 
 **Other Formats**
 
 - _.toBirthDayFormat()_
 
-Convert String text to birthday format (ex: 22/08/1990). <br/>
+  Convert String text to birthday format (ex: 22/08/1990). <br/>
 
 - _.toCardNumber()_
 
-Convert String to card number format (ex: "#### #### #### ####") <br/>
+  Convert String to card number format (ex: "#### #### #### ####") <br/>
 
 - _.toCNPJFormat()_
 
-Convert String to CNPJ format (ex: "##.###.###/####-##") <br/>
+  Convert String to CNPJ format (ex: "##.###.###/####-##") <br/>
 
 - _.toCPFFormat()_
 
-Convert String to CPF format (ex: "###.###.###-##") <br/>
+  Convert String to CPF format (ex: "###.###.###-##") <br/>
 
 - _.toPhoneFormat()_
 
-Convert String to Phone format (ex:"(##) #####-####") <br/>
+  Convert String to Phone format (ex:"(##) #####-####") <br/>
 
 - _.toZipCodeFormat()_
 
-Convert String to Zip Code format (ex:"#####-###") <br/>
+  Convert String to Zip Code format (ex:"#####-###") <br/>
 
 - _.removeWhiteSpace()_
 
-Remove All white spaces. <br/> <br/>
+  Remove All white spaces. <br/> <br/>
 
 ## Utils
 
 ### Formats
 
-- Abstract Class **CompassDateFormat**
+#### Abstract Class **CompassDateFormat**
 
 Convert **DateTime International** (YYYY-MM-DD HH:MM:SS ±HHMM) String format to **Brazilian Formats**: <br/><br/>
 
