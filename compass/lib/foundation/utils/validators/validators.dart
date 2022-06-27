@@ -7,3 +7,4 @@ export './email_validator.dart';
 export './password_validator.dart';
 export './phone_validator.dart';
 export './zip_code_validator.dart';
+export './full_name_validator.dart';
