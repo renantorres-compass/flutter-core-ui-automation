@@ -108,7 +108,7 @@
 
 ### Formats
 
-#### Abstract Class **CompassDateFormat**
+#### Abstract Class _CompassDateFormat_
 
 Convert **DateTime International** (YYYY-MM-DD HH:MM:SS ±HHMM) String format to **Brazilian Formats**: <br/><br/>
 
@@ -156,7 +156,7 @@ Convert **DateTime International** (YYYY-MM-DD HH:MM:SS ±HHMM) String format to
 
 ### Formats
 
-- Abstract Class **CompassDateFormat**
+#### - Abstract Class _CompassDateFormat_
 
 Convert **DateTime International** (YYYY-MM-DD HH:MM:SS ±HHMM) String format to **Brazilian Formats**: <br/><br/>
 
@@ -198,7 +198,23 @@ Convert **DateTime International** (YYYY-MM-DD HH:MM:SS ±HHMM) String format to
 
 10. _CompassDateFormat.**monthName**(String month)_
 
-    Ex: "01" == Janeiro.<br/>
+    Ex: "01" == Janeiro.<br/><br/>
+
+#### - Abstract Class _CompassMoneyFormat_
+
+Convert **num** to a String **BRL Money**: <br/><br/>
+
+1. _CompassMoneyFormat.**moneyBRLformat**(num value)_
+
+   "R$ 1.234,00"<br/>
+
+### Functions
+
+#### - _CheckCardBanner.checkCardBanner(String cardNumber)_
+
+Get the Card Banner enum type from the String card number value.
+
+This function uses the enum **BannerTypes {visa, mastercard, amex}** localized inside the same file from abstract class _CheckCardBanner_
 
 <!--
 This README describes the package. If you publish this package to pub.dev,
