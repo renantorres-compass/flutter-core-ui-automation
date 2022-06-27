@@ -8,3 +8,4 @@ export './password_validator.dart';
 export './phone_validator.dart';
 export './zip_code_validator.dart';
 export './full_name_validator.dart';
+export './card_number_luhn_validator.dart';
