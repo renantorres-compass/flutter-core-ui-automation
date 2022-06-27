@@ -10,7 +10,7 @@ Returns the **Size** of Screen, can be used to determinate the Width or Height f
 
 - _.appTextTheme_
 
-Get the Text Theme easily.\_\_
+Get the Text Theme easily.\_\_\_\_\_
 
 ### Double
 
