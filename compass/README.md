@@ -104,6 +104,54 @@ Convert String to Zip Code format (ex:"#####-###") <br/>
 
 Remove All white spaces. <br/> <br/>
 
+## Utils
+
+### Formats
+
+- Abstract Class **CompassDateFormat**
+
+Convert **DateTime International** (YYYY-MM-DD HH:MM:SS ±HHMM) String format to **Brazilian Formats**: <br/><br/>
+
+1. _CompassDateFormat.**compact**(String dateTime)_
+
+   "dd/MM"<br/>
+
+2. _CompassDateFormat.**compactHyphenated**(String dateTime)_
+
+   "dd/MM - HH:mm"<br/>
+
+3. _CompassDateFormat.**short**(String dateTime)_
+
+   "dd/MM/yyyy"<br/>
+
+4. _CompassDateFormat.**medium**(String dateTime)_
+
+   "dd/MM/yyyy HH:mm"<br/>
+
+5. _CompassDateFormat.**mediumHyphenated**(String dateTime)_
+
+   "dd/MM/yyyy - HH:mm"<br/>
+
+6. _CompassDateFormat.**full**(String dateTime)_
+
+   "dd/MM/yyyy HH:mm:ss"<br/>
+
+7. _CompassDateFormat.**fullHyphenated**(String dateTime)_
+
+   "dd/MM/yyyy - HH:mm:ss"<br/>
+
+8. _CompassDateFormat.**monthYear**(String dateTime)_
+
+   "MMMM / YYYY"<br/>
+
+9. _CompassDateFormat.**dayShortNamedMonth**(String dateTime)_
+
+   "dd / MMMM"<br/>
+
+10. _CompassDateFormat.**monthName**(String month)_
+
+    Ex: "01" == Janeiro.<br/>
+
 <!--
 This README describes the package. If you publish this package to pub.dev,
 this README's contents appear on the landing page for your package.
