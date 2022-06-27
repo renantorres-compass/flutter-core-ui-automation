@@ -1,4 +1,4 @@
-import 'package:compass/foundation/extension/string.dart';
+import 'package:compass/foundation/extensions/extensions.dart';
 
 class BirthdayValidator {
   final String errorMessage;

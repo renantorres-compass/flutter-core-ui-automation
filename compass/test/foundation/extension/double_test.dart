@@ -1,4 +1,4 @@
-import 'package:compass/foundation/extension/double.dart';
+import 'package:compass/foundation/extensions/extensions.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

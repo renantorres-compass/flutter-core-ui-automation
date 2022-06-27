@@ -1,5 +1,5 @@
 import 'package:compass/foundation/utils/formats/formats.dart';
-import 'package:compass/foundation/utils/text_input_masks/masks.dart';
+import 'package:compass/foundation/utils/text_input_masks/text_input_masks.dart';
 
 extension StringX on String {
   String dateFormatCompact() => CompassDateFormat.compact(this);
