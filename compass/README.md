@@ -152,10 +152,6 @@ Convert **DateTime International** (YYYY-MM-DD HH:MM:SS ±HHMM) String format to
 
     Ex: "01" == Janeiro.<br/>
 
-## Utils
-
-### Formats
-
 #### - Abstract Class _CompassDateFormat_
 
 Convert **DateTime International** (YYYY-MM-DD HH:MM:SS ±HHMM) String format to **Brazilian Formats**: <br/><br/>
@@ -279,6 +275,108 @@ A mask to use on a TextField input formatters.
 Ex: TextField(inputFormatters: [**ZipCodeMask.zipCodeFormatter**]),
 
 "#####-###"
+
+<br/> <br/>
+
+### Validators
+
+#### - _BirthDay Validator_
+
+Validate a text field.
+
+Add a custom error message.
+
+- TextFormField(validator: **BirthdayValidator**(errorMessage: errorMessage).**validateBirthday**)
+
+<br/>
+
+#### - _Card Number with Luhn Algorithm Validator_
+
+Validate a text field.
+
+Add a custom error message.
+
+- TextFormField(validator: **CardNumberLuhnValidator**(errorMessage: errorMessage).**validateCardNumberLuhnAlgorithm**)
+
+<br/>
+
+#### - _Card Number Validator_
+
+Validate a text field.
+
+Add a custom error message.
+
+- TextFormField(validator: **CardNumberValidator**(errorMessage: errorMessage).**validateCardNumber**)
+
+<br/>
+
+#### - _CNPJ Validator_
+
+Validate a text field.
+
+Add a custom error message.
+
+- TextFormField(validator: **CNPJValidator**(errorMessage: errorMessage).**CNPJValidator**)
+
+<br/>
+
+#### - _CPF Validator_
+
+Validate a text field.
+
+Add a custom error message.
+
+- TextFormField(validator: **CPFValidator**(errorMessage: errorMessage).**CPFValidator**)
+
+<br/>
+
+#### - _Email Validator_
+
+Validate a text field.
+
+Add a custom error message.
+
+- TextFormField(validator: **EmailValidator**(errorMessage: errorMessage).**EmailValidator**)
+
+<br/>
+
+#### - _Full Name Validator_
+
+Validate a text field.
+
+Add a custom error message.
+
+- TextFormField(validator: **FullNameValidator**(errorMessage: errorMessage).**FullNameValidator**)
+
+<br/>
+
+#### - _Password Validator_
+
+Validate a text field.
+
+Add a custom error message.
+
+- TextFormField(validator: **PasswordValidator**(errorMessage: errorMessage).**PasswordValidator**)
+
+<br/>
+
+#### - _Phone Validator_
+
+Validate a text field.
+
+Add a custom error message.
+
+- TextFormField(validator: **PhoneValidator**(errorMessage: errorMessage).**PhoneValidator**)
+
+<br/>
+
+#### - _Zip Code Validator_
+
+Validate a text field.
+
+Add a custom error message.
+
+- TextFormField(validator: **ZipCodeValidator**(errorMessage: errorMessage).**ZipCodeValidator**)
 
 <br/>
 
