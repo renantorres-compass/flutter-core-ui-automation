@@ -214,7 +214,37 @@ Convert **num** to a String **BRL Money**: <br/><br/>
 
 Get the Card Banner enum type from the String card number value.
 
-This function uses the enum **BannerTypes {visa, mastercard, amex}** localized inside the same file from abstract class _CheckCardBanner_
+This function uses the enum **BannerTypes** localized inside the same file from abstract class _CheckCardBanner_
+
+### Text Input Masks
+
+#### - _BirthDay Mask_
+
+A mask to use on a TextField input formatters.
+
+Ex: TextField(inputFormatters: [**BirthDayMask.birthdayController**]),
+
+'##/##/####'
+
+<br/>
+
+#### - _Card Number Mask_
+
+A mask to use on a TextField input formatters.
+
+Ex: TextField(inputFormatters: [**CardNumberMask.cardNumberController**]),
+
+"#### #### #### ####"
+
+<br/>
+
+#### - _CNPJ Mask_
+
+#### - _CPF Mask_
+
+#### - _Phone Mask_
+
+#### - _ZipCode Mask_
 
 <!--
 This README describes the package. If you publish this package to pub.dev,
