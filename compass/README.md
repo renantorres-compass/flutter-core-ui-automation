@@ -222,7 +222,7 @@ This function uses the enum **BannerTypes** localized inside the same file from 
 
 A mask to use on a TextField input formatters.
 
-Ex: TextField(inputFormatters: [**BirthDayMask.birthdayController**]),
+Ex: TextField(inputFormatters: [**BirthDayMask.birthdayFormatter**]),
 
 '##/##/####'
 
@@ -232,7 +232,7 @@ Ex: TextField(inputFormatters: [**BirthDayMask.birthdayController**]),
 
 A mask to use on a TextField input formatters.
 
-Ex: TextField(inputFormatters: [**CardNumberMask.cardNumberController**]),
+Ex: TextField(inputFormatters: [**CardNumberMask.cardNumberFormatter**]),
 
 "#### #### #### ####"
 
@@ -240,11 +240,43 @@ Ex: TextField(inputFormatters: [**CardNumberMask.cardNumberController**]),
 
 #### - _CNPJ Mask_
 
+A mask to use on a TextField input formatters.
+
+Ex: TextField(inputFormatters: [**CNPJMask.cnpjFormatter**]),
+
+"##.###.###/####-##"
+
+<br/>
+
 #### - _CPF Mask_
+
+A mask to use on a TextField input formatters.
+
+Ex: TextField(inputFormatters: [**CPFMask.cpfFormatter**]),
+
+"###.###.###-##"
+
+<br/>
 
 #### - _Phone Mask_
 
+A mask to use on a TextField input formatters.
+
+Ex: TextField(inputFormatters: [**PhoneMask.phoneFormatter**]),
+
+"(##) #####-####"
+
+<br/>
+
 #### - _ZipCode Mask_
+
+A mask to use on a TextField input formatters.
+
+Ex: TextField(inputFormatters: [**ZipCodeMask.zipCodeFormatter**]),
+
+"#####-###"
+
+<br/>
 
 <!--
 This README describes the package. If you publish this package to pub.dev,
