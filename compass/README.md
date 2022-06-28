@@ -202,11 +202,13 @@ Convert **DateTime International** (YYYY-MM-DD HH:MM:SS ±HHMM) String format to
 
 #### - Abstract Class _CompassMoneyFormat_
 
-Convert **num** to a String **BRL Money**: <br/><br/>
+    Convert **num** to a String **BRL Money**: <br/><br/>
 
 1. _CompassMoneyFormat.**moneyBRLformat**(num value)_
 
-   "R$ 1.234,00"<br/>
+   "R$ 1.234,00"
+
+<br/> <br/>
 
 ### Functions
 
@@ -215,6 +217,8 @@ Convert **num** to a String **BRL Money**: <br/><br/>
 Get the Card Banner enum type from the String card number value.
 
 This function uses the enum **BannerTypes** localized inside the same file from abstract class _CheckCardBanner_
+
+<br/> <br/>
 
 ### Text Input Masks
 
