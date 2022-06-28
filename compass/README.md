@@ -202,7 +202,7 @@ Convert **DateTime International** (YYYY-MM-DD HH:MM:SS ±HHMM) String format to
 
 #### - Abstract Class _CompassMoneyFormat_
 
-    Convert **num** to a String **BRL Money**: <br/><br/>
+Convert **num** to a String **BRL Money**: <br/>
 
 1. _CompassMoneyFormat.**moneyBRLformat**(num value)_
 
